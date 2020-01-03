@@ -32,10 +32,10 @@ if (arguments.length <= 2) {
 } else if (arguments[2] === '--help') {
 	console.log(
 		chalk.green.bold('Arguments:\n') +
-			chalk.blue(
+			chalk.green(
 				'    --update X     --    Update mode, where X is the time in ms.\n'
 			) +
-			chalk.blue('    --no-update    --    Without updating.')
+			chalk.green('    --no-update    --    Without updating.')
 	)
 } else if (arguments[2] === '--no-update') {
 	if (arguments[3]) {

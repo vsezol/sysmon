@@ -80,15 +80,15 @@ const printSysInfo = info => {
 	console.log('\n' + chalk.blue.underline.bold('Dinamic:') + '\n')
 	console.log(
 		'    ' +
-		chalk.bgBlue.black(`Free Memory:`) +
+		chalk.bgBlue.white(`Free Memory:`) +
 		' ' +
-		chalk.blue(`${info.dinamic['Free Memory']}`)
+		chalk.white(`${info.dinamic['Free Memory']}`)
 	)
 	console.log(
 		'    ' +
-		chalk.bgBlue.black(`Up Time:`) +
+		chalk.bgBlue.white(`Up Time:`) +
 		' ' +
-		chalk.blue(`${info.dinamic['Up Time']}`)
+		chalk.white(`${info.dinamic['Up Time']}`)
 	)
 }
 

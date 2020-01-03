@@ -1,0 +1,22 @@
+{
+  "name": "sysmon",
+  "version": "1.0.0",
+  "description": "<h1>SYSMON - SYSTEM MONITOR ON NODE.JS</h1>\r <p>This console app shows the parameters of your system.</p>\r <p>This app works with arguments. The argument functions are described in the help section. Run this app using --help to see this.</p>\r <p>\r <h2>Arguments:</h2><br/>\r <pre>    --update X     --    Update mode, where X is the time in ms.</pre>\r <pre>    --no-update    --    Without updating.</pre>\r </p>\r <img src=\"./img/screen1.png\" width=\"auto\"></img>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsezol/sysmon.git"
+  },
+  "author": "vsezol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vsezol/sysmon/issues"
+  },
+  "homepage": "https://github.com/vsezol/sysmon#readme",
+  "dependencies": {
+    "chalk": "^3.0.0"
+  }
+}
